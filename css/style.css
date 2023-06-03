@@ -7,9 +7,14 @@ body {
 }
 
 header {
-    height: 80px;
-    width: 88%;
-    margin: auto;
+    min-height: 80px;
+}
+
+
+.y_menu>li {
+    margin-right: 4px;
+    display: flex;
+    align-items: center;
 }
 
 ul>li:hover {
@@ -26,6 +31,7 @@ ul>li:hover {
     position: absolute;
     display: none;
     border-radius: 5px;
+    margin-top: 5px;
 }
 
 main {
@@ -50,6 +56,12 @@ main {
     height: 100px;
 }
 
+@media screen and (max-width: 587px) {
+    .y_form_col {
+        height: 50px;
+    }
+}
+
 @media (min-width: 1400px) {
 
     .container,
@@ -58,6 +70,7 @@ main {
     .container-sm,
     .container-xl {
         max-width: 1450px;
+        
     }
 
 }

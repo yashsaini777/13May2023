@@ -19,28 +19,55 @@
 
 <body>
 
-    <div class="container bg-white y_tbdr">
+    <div class="container bg-white">
 
-        <header class="y_tbdr bg-white fixed-top">
+        <header class="bg-white fixed-top">
 
-            <div class="row h-100 p-1">
+            <div class="row h-100">
 
-                <div class="col-1 d-flex">
+                <a class="col-4 col-sm-2 y_form_col y_tbdr" href="#">
                     <img src="./img/logo.svg" class="img-fluid" />
+                </a>
+
+                <div class="col-8 col-sm-1 y_form_col y_tbdr">
+                    2
                 </div>
 
-                <div class="col-3"></div>
+                <div class="col-12 col-sm-9 y_tbdr">
 
-                <div class="col-8 d-flex justify-content-end">
+                    <form class="border d-md-none d-sm-none p-0 border-dark rounded-4 mx-auto m-2" style="width:94%">
 
-                    <ul class="nav y_menu align-content-center">
+                        <div class="row">
 
-                        <li class="nav-item">
+                            <div class="col-2 p-0">
+                                <button type="submit" class="btn ms-1">
+                                    <img src="./img/srch.svg" />
+                                </button>
+                            </div>
+
+                            <div class="col-8 p-0">
+                                <input type="search" class="form-control border border-0" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
+                            </div>
+
+                            <div class="col-2 p-0">
+                                <button type="submit" class="btn float-end">
+                                    <img src="./img/mic.svg" />
+                                </button>
+                            </div>
+
+                        </div>
+
+                    </form>
+
+                    <ul class="nav y_menu align-content-center d-none d-sm-block">
+
+                        <li class="nav-item d-block">
 
                             <a class="nav-link active p-1" aria-current="page" href="#">
                                 <img src="./img/language_icon.svg" />
                                 <span>English</span>
-                                <!-- <img src="./img/down_arrow5.svg" /> -->
+                                <img src="./img/down_arrow5.svg" />
                             </a>
 
                             <ul class="nav flex-column y_submenu list-unstyled border ">
@@ -89,7 +116,7 @@
                         <li class="nav-item">
 
                             <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/notify_icon.svg" />
+                                <img src="./img/notify_icon.svg" style="width : 70%" />
                             </a>
 
                         </li>
@@ -97,7 +124,7 @@
                         <li class="nav-item">
 
                             <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/login_icon.svg" />
+                                <img src="./img/login_icon.svg" style="width : 20%" />
                                 <span>Login / Sign up</span>
                             </a>
 
@@ -107,9 +134,11 @@
 
                 </div>
 
+
             </div>
 
         </header>
+
 
         <main class="y_tbdr bg-success">
             main
