@@ -31,7 +31,11 @@ ul>li:hover {
     position: absolute;
     display: none;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 2px;
+}
+
+.y_tnr {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main {
@@ -56,9 +60,60 @@ main {
     height: 100px;
 }
 
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    opacity: 0.5;
+}
+
+/* Overriding styles */
+
+::-webkit-input-placeholder {
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #333 !important; 
+    opacity: 0.5 !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #333 !important; 
+    opacity: 0.5 !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 13px !important;
+    font-weight: bold;
+    color: #333 !important; 
+    opacity: 0.5 !important;
+}
+
 @media screen and (max-width: 587px) {
     .y_form_col {
         height: 50px;
+    }
+    .y_pt{
+        padding-top: 40px;
     }
 }
 
@@ -70,7 +125,7 @@ main {
     .container-sm,
     .container-xl {
         max-width: 1450px;
-        
+
     }
 
 }

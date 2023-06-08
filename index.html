@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" type="image/x-icon" href="favicon.webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-
     <title>JustDial</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="./css/style.css" rel="stylesheet" />
 
 </head>
@@ -25,34 +25,54 @@
 
             <div class="row h-100">
 
-                <a class="col-4 col-sm-2 y_form_col y_tbdr" href="#">
-                    <img src="./img/logo.svg" class="img-fluid" />
+                <a class="col-4 col-sm-1 y_form_col y_tbdr" href="#">
+                    <img src="./img/logo.svg" class="img-fluid y_tbdr mt-2 ms-1 " />
                 </a>
 
-                <div class="col-8 col-sm-1 y_form_col y_tbdr">
-                    2
+                <div class="col-8 col-sm-3 y_form_col y_tbdr">
+
+                    <div class="d-block d-sm-none">
+                        <ul class="nav float-end mt-2 y_tnr">
+                            <li class="nav-item">
+                                <a class="nav-link bg-primary text-white rounded-pill pt-1 pb-1" aria-current="page"
+                                    href="#">OPEN APP</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pt-1 pb-1" href="#">
+                                    <i class="fa-solid fa-bell text-dark"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pt-1 pb-1 " href="#">
+                                    <i class="fa-solid fa-bars text-dark"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
 
-                <div class="col-12 col-sm-9 y_tbdr">
+                <div class="col-12 col-sm-8 y_tbdr ">
 
                     <form class="border d-md-none d-sm-none p-0 border-dark rounded-4 mx-auto m-2" style="width:94%">
 
                         <div class="row">
 
-                            <div class="col-2 p-0">
+                            <div class="col-1 p-0">
                                 <button type="submit" class="btn ms-1">
-                                    <img src="./img/srch.svg" />
+                                    <i class="fa-sharp fa-solid fa-magnifying-glass text-body-tertiary"></i>
                                 </button>
                             </div>
 
-                            <div class="col-8 p-0">
-                                <input type="search" class="form-control border border-0" id="exampleInputEmail1"
+                            <div class="col-9 p-0">
+                                <input type="search" placeholder="packers and movers"
+                                    class="form-control shadow-none border border-0" id="exampleInputEmail1"
                                     aria-describedby="emailHelp">
                             </div>
 
                             <div class="col-2 p-0">
-                                <button type="submit" class="btn float-end">
-                                    <img src="./img/mic.svg" />
+                                <button type="submit" class="btn float-end me-3">
+                                    <i class="fa-solid fa-microphone text-body-tertiary"></i>
                                 </button>
                             </div>
 
@@ -60,77 +80,79 @@
 
                     </form>
 
-                    <ul class="nav y_menu align-content-center d-none d-sm-block">
+                    <div class="d-none d-sm-block">
+                        <ul class="nav y_menu align-content-center float-end y_tbdr">
 
-                        <li class="nav-item d-block">
+                            <li class="nav-item d-block">
 
-                            <a class="nav-link active p-1" aria-current="page" href="#">
-                                <img src="./img/language_icon.svg" />
-                                <span>English</span>
-                                <img src="./img/down_arrow5.svg" />
-                            </a>
+                                <a class="nav-link active p-1" aria-current="page" href="#">
+                                    <img src="./img/language_icon.svg" />
+                                    <span>English</span>
+                                    <img src="./img/down_arrow5.svg" />
+                                </a>
 
-                            <ul class="nav flex-column y_submenu list-unstyled border ">
-                                <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis" href="#">Hindi</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis" href="#">Spanish</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis" href="#">French</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-secondary-emphasis" href="#">Japanese</a>
-                                </li>
-                            </ul>
+                                <ul class="nav flex-column y_submenu list-unstyled border ">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary-emphasis" href="#">Hindi</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary-emphasis" href="#">Spanish</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary-emphasis" href="#">French</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-secondary-emphasis" href="#">Japanese</a>
+                                    </li>
+                                </ul>
 
-                        </li>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">We are Hiring</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">We are Hiring</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">Investor Relations</a>
-                        </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">Investor Relations</a>
+                            </li>
 
-                        <li class="nav-item">
+                            <li class="nav-item">
 
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/advertise_icon.svg" />
-                                <span>Advertise</span>
-                            </a>
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">
+                                    <img src="./img/advertise_icon.svg" />
+                                    <span>Advertise</span>
+                                </a>
 
-                        </li>
+                            </li>
 
-                        <li class="nav-item">
+                            <li class="nav-item">
 
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/listing_icon.svg" />
-                                <span>Free Listing</span>
-                            </a>
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">
+                                    <img src="./img/listing_icon.svg" />
+                                    <span>Free Listing</span>
+                                </a>
 
-                        </li>
+                            </li>
 
-                        <li class="nav-item">
+                            <li class="nav-item">
 
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/notify_icon.svg" style="width : 70%" />
-                            </a>
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">
+                                    <img src="./img/notify_icon.svg" style="width : 70%" />
+                                </a>
 
-                        </li>
+                            </li>
 
-                        <li class="nav-item">
+                            <li class="nav-item">
 
-                            <a class="nav-link text-secondary-emphasis p-1" href="#">
-                                <img src="./img/login_icon.svg" style="width : 20%" />
-                                <span>Login / Sign up</span>
-                            </a>
+                                <a class="nav-link text-secondary-emphasis p-1" href="#">
+                                    <img src="./img/login_icon.svg" style="width : 20%" />
+                                    <span>Login / Sign up</span>
+                                </a>
 
-                        </li>
+                            </li>
 
-                    </ul>
+                        </ul>
+                    </div>
 
                 </div>
 
@@ -140,8 +162,109 @@
         </header>
 
 
-        <main class="y_tbdr bg-success">
-            main
+        <main class="y_pt y_tbdr bg-success">
+            <div class="y_m1 d-block d-sm-none">
+                <div class="row m-0">
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/1.svg" />
+                            Shop Online
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/2.gif" />
+                            B2b
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/3.svg" />
+                            Doctors
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/4.svg" />
+                            Travel
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/5.svg" />
+                            Beauty
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/6.svg" />
+                            Consultants
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/7.svg" />
+                            Rent & Hire
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/8.svg" />
+                            Wedding Requisites
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/9.gif" />
+                            Home Services
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/10.svg" />
+                            Jobs
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/11.svg" />
+                            Repairs & Services
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/12.gif" />
+                            PG/Hotel
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/13.svg" />
+                            Loans
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/14.svg" />
+                            Real Estate
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/15.svg" />
+                            Education
+                        </a>
+                    </div>
+                    <div class="col-3 d-flex align-items-center p-0 y_tbdr">
+                        <a href="#" class="btn btn-sm text-center">
+                            <img class="img-fluid" src="./img/16.svg" />
+                            Show More
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="y_m2">m2</div>
+            <div class="y_m3">m3</div>
         </main>
 
         <footer class="y_tbdr bg-warning">

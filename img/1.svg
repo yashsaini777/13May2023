@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="36" viewBox="0 0 48 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #ffc100;
+      }
+
+      .cls-3 {
+        fill: #333a60;
+      }
+    </style>
+  </defs>
+  <g id="Shop_Online" data-name="Shop Online" transform="translate(10 4)">
+    <rect id="Rectangle_69684" data-name="Rectangle 69684" class="cls-1" width="48" height="36" transform="translate(-10 -4)"/>
+    <path id="Rectangle_91" data-name="Rectangle 91" class="cls-1" d="M0,0H28V28H0Z"/>
+    <g id="Group_13585" data-name="Group 13585" transform="translate(1.933 3.8)">
+      <path id="Path_4951" data-name="Path 4951" class="cls-2" d="M350.234,358.777l2.545-8.232.484-2.117H334.07l2.138,8.756a2.09,2.09,0,0,0,1.989,1.593Z" transform="translate(-329.791 -344.551)"/>
+      <path id="Path_4952" data-name="Path 4952" class="cls-3" d="M364.42,386.618a2.364,2.364,0,1,1,2.364-2.364A2.364,2.364,0,0,1,364.42,386.618Zm0-3.67a1.306,1.306,0,1,0,1.306,1.305A1.306,1.306,0,0,0,364.42,382.948Z" transform="translate(-347.269 -365.449)"/>
+      <path id="Path_4953" data-name="Path 4953" class="cls-3" d="M345.355,386.618a2.364,2.364,0,1,1,2.364-2.364A2.364,2.364,0,0,1,345.355,386.618Zm0-3.67a1.306,1.306,0,1,0,1.305,1.305A1.305,1.305,0,0,0,345.355,382.948Z" transform="translate(-335.363 -365.449)"/>
+      <path id="Path_4954" data-name="Path 4954" class="cls-3" d="M346.146,341.437H327.366l-.33-1.343a2.607,2.607,0,0,0-2.544-1.99H323.2a.529.529,0,0,0,0,1.059h1.288a1.557,1.557,0,0,1,1.516,1.19l2.57,10.515a2.617,2.617,0,0,0,2.544,2h10.991a2.61,2.61,0,0,0,2.553-2.04l1.995-8.728a.545.545,0,0,0-.1-.456A.536.536,0,0,0,346.146,341.437Zm-2.511,9.149a1.563,1.563,0,0,1-1.521,1.224H331.122a1.568,1.568,0,0,1-1.516-1.2l-1.981-8.113h17.856Z" transform="translate(-322.675 -338.103)"/>
+    </g>
+  </g>
+</svg>
